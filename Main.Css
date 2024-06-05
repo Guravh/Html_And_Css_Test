@@ -1,0 +1,499 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-list{
+    background-color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    font-family: serif;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 17px;
+  }
+  .contact-us{
+    font-family: serif;
+    font-size: large;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    margin-top: 12px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Dash_info{
+    padding: 20px;
+    width: 40%;
+  }
+  .Dash_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image{
+    height: 360px;
+    width: 500px;
+    margin-left: 10%;
+  }
+  .Dash{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .reserve-ticket{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 4vh;
+    width: 20%;
+    cursor: pointer;
+  }
+  .Logs_info{
+    padding: 20px;
+    width: 24%;
+  }
+  .Places_tag_info{
+    padding: 10px;
+  }
+  .Logs_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+  }
+  .my-logs{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    height: 4vh;
+    width: 13%;
+    margin-top: -1%;
+    cursor: pointer;
+  }
+  .Card_img{
+    height: 20vh;
+    width: 100%;
+  }
+  .card{
+    width: 20%;
+  }
+  .Card_main{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Places_tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Places_href{
+  color: black;
+  }
+  .small-img{
+    height: 20vh;
+  }
+  .large-img{
+    height: 70vh;
+    width: 90%;
+  }
+  .medium-img{
+    height: 35vh;
+    width: 60%;
+    padding-bottom: 40px;
+  }
+  .Places_icon{
+    height: 9vh;
+  }
+  .info-btn{
+    margin-left: 80%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  .Places_main{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Places_text{
+    display: flex;
+    height: 20vh;
+  }
+  .Places_head{
+    width: 65%;
+  }
+  .Place_info{
+    width: 60%;
+  }
+  .Places_txt{
+    width: 70%;
+  }
+  .Places_H3{
+    text-decoration: underline;
+    width: 50%;
+  }
+  .Mid_head{
+    color: white;
+  }
+  .Mid_main{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+  }
+  .Mid_sec1{
+    color: white;
+    padding-top: 30px;
+  }
+  .Mid_sec2{
+    color: white;
+    padding-top: 30px;
+  }
+  .Mid_txt{
+    margin-left: 8%;
+  }
+  .mid-img{
+    height: 36vh;
+    margin-left: 70px;
+    margin-top: 10%;
+  }
+  .filler-img{
+    height: 46vh;
+  }
+  .Filler_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5%;
+  }
+  .Filler_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  .Filler_cont{
+    display: flex;
+    justify-content: space-around;
+  }
+  .Filler_hr{
+    width: 100%;
+    margin-top: 5px;
+  }
+  .form-img{
+    height: 40vh;
+  }
+  .Form_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .form-input{
+    width: 100%;
+    margin-left: 140px;
+  }
+  .Filler_content{
+    margin-top: -62px
+  }
+  .Form_head{
+    margin-left: 140px;
+  }
+  .Form_main{
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-textarea{
+    width: 100%;
+    margin-left: 140px;
+    height: 10vh;
+  }
+  .submit-btn{
+    width: 50%;
+    margin-left: 220px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 4vh;
+  }
+  .Footer_content{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Footer_Upr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Footer_reserved{
+    margin-left: 40%;
+  }
+  li{
+    list-style: none;
+    padding: 2px;
+  }
+  .Footer_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  strong{
+    margin-top: 5px;
+    margin-left: 65px
+  }
+  .Footer_main{
+    background-color: #efefef;
+  }
+  @media screen and (max-width:800px) {
+    .nav{
+      display: flex;
+      justify-content: space-evenly;
+      width: auto;
+    }
+    .nav-list{
+      background-color: white;
+      position: sticky;
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      width: 70%;
+      font-family: serif;
+      font-size: larger;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 17px;
+    }
+    .Dash_txt{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: -40%;
+    }
+    .image{
+      height: 360px;
+      width: 500px;
+      margin-left: 11%;
+      padding-top: 25px;
+    }
+    .Dash{
+      display: flex;
+      justify-content: space-evenly;
+      width: 183%;
+      flex-direction: column;
+    }
+    .reserve-ticket{
+      background-color: black;
+      color: white;
+    }
+    .Logs_main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      height: 70vh;
+    }
+    .my-logs{
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+    .Card_img{
+      height: 20vh;
+      width: 100%;
+    }
+    .card{
+      width: 35%;
+    }
+    .Card_main{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      height: 114vh;
+    }
+    .Places_tag{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .Places_href{
+    color: black;
+    }
+    .small-img{
+      height: 20vh;
+    }
+    .large-img{
+      height: 65vh;
+      width: 118%;
+      margin-left: -127px;
+      padding-bottom: 20px;
+    }
+    .medium-img{
+      height: 35vh;
+      width: 138%;
+      padding-bottom: 40px;
+      margin-left: -100px;
+    }
+    .Places_icon{
+      height: 15vh;
+      margin-left: 500%;
+    }
+    .Places_main{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+    }
+    .Places_text{
+      display: flex;
+      height: 20vh;
+    }
+    .Places_head{
+      width: 150%;
+    }
+    .Place_info{
+      width: 107%;
+      height: 33vh;
+      padding-left: 30px;
+    }
+    .Places_H3{
+      text-decoration: underline;
+    }
+    .Mid_head{
+      color: white;
+    }
+    .Mid_main{
+      background-color: black;
+      display: flex;
+      justify-content: space-evenly;
+      height: 50vh;
+    }
+    .Mid_sec1{
+      color: white;
+      padding-top: 30px;
+    }
+    .Mid_sec2{
+      color: white;
+      padding-top: 30px;
+    }
+    .Mid_txt{
+      margin-top: 5%;
+      margin-left: 8%;
+    }
+    .mid-img{
+      height: 36vh;
+      margin-left: -8px;
+      width: 97%;
+      margin-top: 10%;
+    }
+  
+    .filler-img{
+      height: 46vh;
+      width: 100%;
+    }
+    .Filler_content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -5%;
+    }
+    .Filler_cont{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .Filler_head{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 60px;
+    }
+    .Filler_hr{
+      width: 50%;
+      margin-top: 5px;
+    }
+    .Form_main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .form-img{
+      height: 40vh;
+      width: 90%;
+      margin-left: 35px;
+    }
+    .Form_form{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px
+    }
+    .form-input{
+      width: 30%;
+     margin-left: 0px;
+    }
+  .Form_head{
+    margin-left: 0px;
+  }
+  .Form_img_main{
+  
+  }
+    .form-textarea{
+      width: 30%;
+      height: 9vh;
+      margin-left: 0px;
+    }
+    .submit-btn{
+      width: 30%;
+      margin-left: 0px;
+      background-color: black;
+      color: white;
+    }
+    .Footer_content{
+      height: 10vh;
+      display: flex;
+      justify-content: space-around;
+    }
+    li{
+      list-style: none;
+      padding: 2px;
+    }
+    .Footer_head{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    strong{
+      margin-top: 0px;
+      margin-left: 65px
+    }
+    .Footer_main{
+      background-color: #efefef;
+    }
+    .Footer_Upr{
+      width: 104%;
+    }
+    .Footer_reserved{
+      margin-left: 25%;
+    }
+  }
